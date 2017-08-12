@@ -15,5 +15,9 @@ body {
     background: white;
     padding: 2em;
     min-height: 500px;
+
+    #icon-book {
+      transform: rotate(-45deg)
+    }
   }
 }

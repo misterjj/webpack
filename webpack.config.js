@@ -33,7 +33,9 @@ Encore
   .autoProvidejQuery()
   
   .enableSourceMaps(!Encore.isProduction())
-
+  
+  // see ./postcss.config.js
+  .enablePostCssLoader()
   // create hashed filenames (e.g. app.abc123.css)
   .enableVersioning()
 ;
