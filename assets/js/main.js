@@ -8,7 +8,10 @@ const assets = require("./assets.js");
 const greet = require('./modules/greet');
 
 
-$(document).ready(function() {
+$(document).ready(() => {
   $('h1').html(greet('john'));
   $('[data-toggle="tooltip"]').tooltip();
+  
+  //test babel
+  console.log([1,2,3].map(n => n + 1));
 });

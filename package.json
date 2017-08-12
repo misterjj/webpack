@@ -19,11 +19,15 @@
   "bugs": {
     "url": "https://github.com/misterjj/webpack/issues"
   },
-  "browserslist": [ "last 2 versions", "IE >= 8" ],
+  "browserslist": [
+    "last 2 versions",
+    "IE >= 8"
+  ],
   "homepage": "https://github.com/misterjj/webpack#readme",
   "devDependencies": {
     "@symfony/webpack-encore": "^0.13.0",
     "autoprefixer": "^7.1.2",
+    "babel-preset-es2017": "^6.24.1",
     "bootstrap-sass": "^3.3.7",
     "encore-require-assets-helper": "^0.3.0",
     "jquery": "^3.2.1",
