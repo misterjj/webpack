@@ -5,9 +5,24 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" href="{{ asset('build/global.css') }}">
     </head>
     <body>
-        {% block body %}{% endblock %}
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" src="{{ asset('build/images/logo.png') }}" height="20px">
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="main">
+                {% block body %}{% endblock %}
+            </div>
+        </div>
         {% block javascripts %}{% endblock %}
+        <script src="{{ asset('build/app.js') }}"></script>
     </body>
 </html>
