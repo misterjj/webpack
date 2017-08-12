@@ -30,4 +30,11 @@ En prod (build les assets, minifie le js et css)
 npm run prod
 ```
 
+
+Extra
+--------------
+
+la library node [encore-require-assets-helper][2] utilisée pour les images dans les twig
+
 [1]:  http://symfony.com/doc/current/frontend.html
+[2]:  https://github.com/skaryys/encore-require-assets-helper
