@@ -9,7 +9,7 @@ Installer les projet
 
 Installer symphony et les dépendances
 ```bash
-composer Install
+composer install
 ```
 
 Installer les dépendances node
@@ -20,7 +20,7 @@ npm install
 Build les assets
 --------------
 
-En dev (watch les changements sur le fichiers)
+En dev (watch les changements sur les fichiers)
 ```bash
 npm run dev
 ```
